@@ -16,6 +16,10 @@ Collectively obtains the campaign, ad group, keyword, and ad information.
 #### Operation
 Describe the operation which provides at CampaignExportService.
 
+#### [Notes]
+　- Can confirm the information of past "addJob" request from "get" operation. Created jobs are valid for 30 days after the first request. <br>
+　- Can confirm the result of export from download URLs in "get" response. URLs are valid for 15 minutes after the status is "COMPLETED".
+
 ## addJob
 Creates job to register for export.
 
